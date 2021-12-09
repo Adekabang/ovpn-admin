@@ -30,6 +30,8 @@ services:
       EASYRSA_PATH: "/mnt/easyrsa"
       OVPN_SERVER: "127.0.0.1:7777:tcp"
       OVPN_INDEX_PATH: "/mnt/easyrsa/pki/index.txt"
+      OVPN_METRICS_PATH: "/metrics"
+      OVPN_AUTH: "True"
     network_mode: service:openvpn
     volumes:
       - ./easyrsa_master:/mnt/easyrsa
