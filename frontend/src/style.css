@@ -58,7 +58,10 @@ body {
   background-color: #ffffff;
   padding: 1rem;
 }
-
+.logo-size {
+ max-width: 150px;
+ max-height: 150px;
+}
 .ccd-routes {
 
 }
