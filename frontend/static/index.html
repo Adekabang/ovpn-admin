@@ -7,6 +7,14 @@
 <body>
 <script src="dist/style.min.js"></script>
 <div id="app">
+
+  <b-navbar variant="faded" type="light">
+    <b-navbar-brand href="#">
+      <img src="riss-logo.png" class="d-inline-block align-top" alt="RISS Logo">
+      VPN User Management
+    </b-navbar-brand>
+  </b-navbar>
+
   <vue-good-table
     :columns="columns"
     :rows="filteredRows"
